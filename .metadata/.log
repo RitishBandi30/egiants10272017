@@ -1,0 +1,819 @@
+!SESSION 2017-10-27 11:37:58.294 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-27 11:38:34.647
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ritis'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-10-27 11:44:37.090 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/C:/Users/ritis/Desktop/Egiants10272017/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2017-10-27 11:44:52.788
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-10-27 11:44:52.788
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@775bb6c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d111f61,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-27 11:44:59.149
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-27 11:44:59.149
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-27 11:45:03.644
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ritis'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 11:48:50.145
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-10-27 11:48:57.450
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 11:49:00.842
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 11:49:00.861
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-27 11:51:10.137
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-27 11:51:10.137
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 11:59:01.500
+!MESSAGE JavaScript Validation finished validating: file:/C:/Users/ritis/Desktop/Egiants10272017/angular4-client/node_modules/@angular/cli/lib/ast-tools/change.js
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 11:59:01.506
+!MESSAGE org.eclipse.wst.jsdt.core.dom.FunctionInvocation cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+!STACK 0
+java.lang.ClassCastException: org.eclipse.wst.jsdt.core.dom.FunctionInvocation cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+	at org.eclipse.wst.jsdt.core.dom.SpreadElement.clone0(SpreadElement.java:140)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.FunctionInvocation.clone0(FunctionInvocation.java:224)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.core.dom.ReturnStatement.clone0(ReturnStatement.java:121)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.Block.clone0(Block.java:118)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.assignExpressionToParent(DOMASTConverter.java:613)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.endVisit(DOMASTConverter.java:306)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.callVisit(EStreeVisitor.java:107)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.traverse(EStreeVisitor.java:63)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.convert(DOMASTConverter.java:124)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.translate(EsprimaParser.java:204)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.parse(EsprimaParser.java:139)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:906)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:673)
+	at org.eclipse.wst.jsdt.internal.core.validation.JavaScriptValidator.validate(JavaScriptValidator.java:62)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:120)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:84)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 11:59:03.098
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 11:59:18.138
+!MESSAGE JavaScript Validation finished validating: file:/C:/Users/ritis/Desktop/Egiants10272017/angular4-client/node_modules/@angular/compiler/@angular/compiler.js
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 11:59:18.166
+!MESSAGE org.eclipse.wst.jsdt.core.dom.FunctionInvocation cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+!STACK 0
+java.lang.ClassCastException: org.eclipse.wst.jsdt.core.dom.FunctionInvocation cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+	at org.eclipse.wst.jsdt.core.dom.SpreadElement.clone0(SpreadElement.java:140)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.FunctionInvocation.clone0(FunctionInvocation.java:224)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ArrowFunctionExpression.clone0(ArrowFunctionExpression.java:154)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.FunctionInvocation.clone0(FunctionInvocation.java:224)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ExpressionStatement.clone0(ExpressionStatement.java:128)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.Block.clone0(Block.java:118)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.assignExpressionToParent(DOMASTConverter.java:613)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.endVisit(DOMASTConverter.java:306)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.callVisit(EStreeVisitor.java:107)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.traverse(EStreeVisitor.java:63)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.convert(DOMASTConverter.java:124)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.translate(EsprimaParser.java:204)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.parse(EsprimaParser.java:139)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:906)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:673)
+	at org.eclipse.wst.jsdt.internal.core.validation.JavaScriptValidator.validate(JavaScriptValidator.java:62)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:120)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:84)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 11:59:29.601
+!MESSAGE JavaScript Validation finished validating: file:/C:/Users/ritis/Desktop/Egiants10272017/angular4-client/node_modules/@angular/core/@angular/core/testing.js
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 11:59:29.602
+!MESSAGE org.eclipse.wst.jsdt.core.dom.FieldAccess cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+!STACK 0
+java.lang.ClassCastException: org.eclipse.wst.jsdt.core.dom.FieldAccess cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+	at org.eclipse.wst.jsdt.core.dom.SpreadElement.clone0(SpreadElement.java:140)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.FunctionInvocation.clone0(FunctionInvocation.java:224)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ExpressionStatement.clone0(ExpressionStatement.java:128)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.Block.clone0(Block.java:118)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.IfStatement.clone0(IfStatement.java:171)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.Block.clone0(Block.java:118)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.assignExpressionToParent(DOMASTConverter.java:613)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.endVisit(DOMASTConverter.java:306)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.callVisit(EStreeVisitor.java:107)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.traverse(EStreeVisitor.java:63)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.convert(DOMASTConverter.java:124)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.translate(EsprimaParser.java:204)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.parse(EsprimaParser.java:139)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:906)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:673)
+	at org.eclipse.wst.jsdt.internal.core.validation.JavaScriptValidator.validate(JavaScriptValidator.java:62)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:120)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:84)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 11:59:32.432
+!MESSAGE JavaScript Validation finished validating: file:/C:/Users/ritis/Desktop/Egiants10272017/angular4-client/node_modules/@angular/core/@angular/core.js
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 11:59:32.433
+!MESSAGE org.eclipse.wst.jsdt.core.dom.ArrayAccess cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+!STACK 0
+java.lang.ClassCastException: org.eclipse.wst.jsdt.core.dom.ArrayAccess cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+	at org.eclipse.wst.jsdt.core.dom.SpreadElement.clone0(SpreadElement.java:140)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.FunctionInvocation.clone0(FunctionInvocation.java:224)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ExpressionStatement.clone0(ExpressionStatement.java:128)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.Block.clone0(Block.java:118)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.IfStatement.clone0(IfStatement.java:171)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.Block.clone0(Block.java:118)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.core.dom.ArrowFunctionExpression.clone0(ArrowFunctionExpression.java:157)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.FunctionInvocation.clone0(FunctionInvocation.java:224)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ExpressionStatement.clone0(ExpressionStatement.java:128)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.Block.clone0(Block.java:118)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.IfStatement.clone0(IfStatement.java:171)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.Block.clone0(Block.java:118)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.assignExpressionToParent(DOMASTConverter.java:613)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.endVisit(DOMASTConverter.java:306)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.callVisit(EStreeVisitor.java:107)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.traverse(EStreeVisitor.java:63)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.convert(DOMASTConverter.java:124)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.translate(EsprimaParser.java:204)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.parse(EsprimaParser.java:139)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:906)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:673)
+	at org.eclipse.wst.jsdt.internal.core.validation.JavaScriptValidator.validate(JavaScriptValidator.java:62)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:120)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:84)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 11:59:40.437
+!MESSAGE JavaScript Validation finished validating: file:/C:/Users/ritis/Desktop/Egiants10272017/angular4-client/node_modules/@angular/http/@angular/http.js
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 11:59:40.438
+!MESSAGE org.eclipse.wst.jsdt.core.dom.FunctionInvocation cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+!STACK 0
+java.lang.ClassCastException: org.eclipse.wst.jsdt.core.dom.FunctionInvocation cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+	at org.eclipse.wst.jsdt.core.dom.SpreadElement.clone0(SpreadElement.java:140)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.FunctionInvocation.clone0(FunctionInvocation.java:224)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ArrowFunctionExpression.clone0(ArrowFunctionExpression.java:154)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.FunctionInvocation.clone0(FunctionInvocation.java:224)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ExpressionStatement.clone0(ExpressionStatement.java:128)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.Block.clone0(Block.java:118)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.core.dom.ArrowFunctionExpression.clone0(ArrowFunctionExpression.java:157)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.FunctionInvocation.clone0(FunctionInvocation.java:224)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ExpressionStatement.clone0(ExpressionStatement.java:128)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.Block.clone0(Block.java:118)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.assignExpressionToParent(DOMASTConverter.java:613)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.endVisit(DOMASTConverter.java:306)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.callVisit(EStreeVisitor.java:107)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.traverse(EStreeVisitor.java:63)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.convert(DOMASTConverter.java:124)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.translate(EsprimaParser.java:204)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.parse(EsprimaParser.java:139)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:906)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:673)
+	at org.eclipse.wst.jsdt.internal.core.validation.JavaScriptValidator.validate(JavaScriptValidator.java:62)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:120)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:84)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 12:00:07.930
+!MESSAGE JavaScript Validation finished validating: file:/C:/Users/ritis/Desktop/Egiants10272017/angular4-client/node_modules/@angular-devkit/schematics/src/sink/virtual-filesystem.js
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 12:00:07.931
+!MESSAGE org.eclipse.wst.jsdt.core.dom.FunctionInvocation cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+!STACK 0
+java.lang.ClassCastException: org.eclipse.wst.jsdt.core.dom.FunctionInvocation cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+	at org.eclipse.wst.jsdt.core.dom.SpreadElement.clone0(SpreadElement.java:140)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.ArrayInitializer.clone0(ArrayInitializer.java:114)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.FunctionInvocation.clone0(FunctionInvocation.java:224)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.FieldAccess.clone0(FieldAccess.java:177)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.core.dom.FunctionInvocation.clone0(FunctionInvocation.java:220)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.FunctionInvocation.clone0(FunctionInvocation.java:224)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.FieldAccess.clone0(FieldAccess.java:177)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.core.dom.FunctionInvocation.clone0(FunctionInvocation.java:220)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.core.dom.ReturnStatement.clone0(ReturnStatement.java:121)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.Block.clone0(Block.java:118)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.assignExpressionToParent(DOMASTConverter.java:613)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.endVisit(DOMASTConverter.java:306)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.callVisit(EStreeVisitor.java:107)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.traverse(EStreeVisitor.java:63)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.convert(DOMASTConverter.java:124)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.translate(EsprimaParser.java:204)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.parse(EsprimaParser.java:139)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:906)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:673)
+	at org.eclipse.wst.jsdt.internal.core.validation.JavaScriptValidator.validate(JavaScriptValidator.java:62)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:120)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:84)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 12:00:08.061
+!MESSAGE JavaScript Validation finished validating: file:/C:/Users/ritis/Desktop/Egiants10272017/angular4-client/node_modules/@angular-devkit/schematics/src/tree/filesystem.js
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 12:00:08.062
+!MESSAGE org.eclipse.wst.jsdt.core.dom.FunctionInvocation cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+!STACK 0
+java.lang.ClassCastException: org.eclipse.wst.jsdt.core.dom.FunctionInvocation cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+	at org.eclipse.wst.jsdt.core.dom.SpreadElement.clone0(SpreadElement.java:140)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.ArrayInitializer.clone0(ArrayInitializer.java:114)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.FieldAccess.clone0(FieldAccess.java:177)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.core.dom.FunctionInvocation.clone0(FunctionInvocation.java:220)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ExpressionStatement.clone0(ExpressionStatement.java:128)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.Block.clone0(Block.java:118)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.IfStatement.clone0(IfStatement.java:171)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.Block.clone0(Block.java:118)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.assignExpressionToParent(DOMASTConverter.java:613)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.endVisit(DOMASTConverter.java:306)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.callVisit(EStreeVisitor.java:107)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.traverse(EStreeVisitor.java:63)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.convert(DOMASTConverter.java:124)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.translate(EsprimaParser.java:204)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.parse(EsprimaParser.java:139)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:906)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:673)
+	at org.eclipse.wst.jsdt.internal.core.validation.JavaScriptValidator.validate(JavaScriptValidator.java:62)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:120)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:84)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 12:00:08.086
+!MESSAGE JavaScript Validation finished validating: file:/C:/Users/ritis/Desktop/Egiants10272017/angular4-client/node_modules/@angular-devkit/schematics/src/tree/filtered.js
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 12:00:08.087
+!MESSAGE org.eclipse.wst.jsdt.core.dom.FunctionInvocation cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+!STACK 0
+java.lang.ClassCastException: org.eclipse.wst.jsdt.core.dom.FunctionInvocation cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+	at org.eclipse.wst.jsdt.core.dom.SpreadElement.clone0(SpreadElement.java:140)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.ArrayInitializer.clone0(ArrayInitializer.java:114)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.FieldAccess.clone0(FieldAccess.java:177)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.core.dom.FunctionInvocation.clone0(FunctionInvocation.java:220)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ExpressionStatement.clone0(ExpressionStatement.java:128)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.Block.clone0(Block.java:118)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.assignExpressionToParent(DOMASTConverter.java:613)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.endVisit(DOMASTConverter.java:306)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.callVisit(EStreeVisitor.java:107)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.traverse(EStreeVisitor.java:63)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.convert(DOMASTConverter.java:124)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.translate(EsprimaParser.java:204)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.parse(EsprimaParser.java:139)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:906)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:673)
+	at org.eclipse.wst.jsdt.internal.core.validation.JavaScriptValidator.validate(JavaScriptValidator.java:62)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:120)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:84)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 12:00:08.265
+!MESSAGE JavaScript Validation finished validating: file:/C:/Users/ritis/Desktop/Egiants10272017/angular4-client/node_modules/@angular-devkit/schematics/src/tree/virtual.js
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 12:00:08.266
+!MESSAGE org.eclipse.wst.jsdt.core.dom.FunctionInvocation cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+!STACK 0
+java.lang.ClassCastException: org.eclipse.wst.jsdt.core.dom.FunctionInvocation cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+	at org.eclipse.wst.jsdt.core.dom.SpreadElement.clone0(SpreadElement.java:140)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.ArrayInitializer.clone0(ArrayInitializer.java:114)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.ClassInstanceCreation.clone0(ClassInstanceCreation.java:301)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.FieldAccess.clone0(FieldAccess.java:177)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.core.dom.FunctionInvocation.clone0(FunctionInvocation.java:220)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.SpreadElement.clone0(SpreadElement.java:140)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.ArrayInitializer.clone0(ArrayInitializer.java:114)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.core.dom.ReturnStatement.clone0(ReturnStatement.java:121)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.Block.clone0(Block.java:118)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.assignExpressionToParent(DOMASTConverter.java:613)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.endVisit(DOMASTConverter.java:306)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.callVisit(EStreeVisitor.java:107)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.traverse(EStreeVisitor.java:63)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.convert(DOMASTConverter.java:124)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.translate(EsprimaParser.java:204)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.parse(EsprimaParser.java:139)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:906)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:673)
+	at org.eclipse.wst.jsdt.internal.core.validation.JavaScriptValidator.validate(JavaScriptValidator.java:62)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:120)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:84)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 12:00:09.234
+!MESSAGE JavaScript Validation finished validating: file:/C:/Users/ritis/Desktop/Egiants10272017/angular4-client/node_modules/@ngtools/webpack/src/plugin.js
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-10-27 12:00:09.235
+!MESSAGE org.eclipse.wst.jsdt.core.dom.ConditionalExpression cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+!STACK 0
+java.lang.ClassCastException: org.eclipse.wst.jsdt.core.dom.ConditionalExpression cannot be cast to org.eclipse.wst.jsdt.core.dom.Name
+	at org.eclipse.wst.jsdt.core.dom.SpreadElement.clone0(SpreadElement.java:140)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.ArrayInitializer.clone0(ArrayInitializer.java:114)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.core.dom.VariableDeclarationFragment.clone0(VariableDeclarationFragment.java:208)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.VariableDeclarationStatement.clone0(VariableDeclarationStatement.java:296)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtrees(ASTNode.java:2363)
+	at org.eclipse.wst.jsdt.core.dom.Block.clone0(Block.java:118)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.clone(ASTNode.java:2384)
+	at org.eclipse.wst.jsdt.core.dom.ASTNode.copySubtree(ASTNode.java:2338)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.assignExpressionToParent(DOMASTConverter.java:613)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.endVisit(DOMASTConverter.java:306)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.callVisit(EStreeVisitor.java:107)
+	at org.eclipse.wst.jsdt.internal.esprima.EStreeVisitor.traverse(EStreeVisitor.java:63)
+	at org.eclipse.wst.jsdt.internal.esprima.DOMASTConverter.convert(DOMASTConverter.java:124)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.translate(EsprimaParser.java:204)
+	at org.eclipse.wst.jsdt.internal.esprima.EsprimaParser.parse(EsprimaParser.java:139)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:906)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:673)
+	at org.eclipse.wst.jsdt.internal.core.validation.JavaScriptValidator.validate(JavaScriptValidator.java:62)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:120)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:84)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:00:09.519
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:00:09.750
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:04.926
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:04.926
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:05.104
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:05.105
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:05.110
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:05.338
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:05.401
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:05.418
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:05.419
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:05.456
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:05.561
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:05.573
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:05.596
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:05.620
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:10.236
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:28.559
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:30.930
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2017-10-27 12:01:45.706
+!MESSAGE JSDT AbstractIndexer attempted to index a field with no name, this should never happen.
+typeName: Boolean
+declaringType: ___anonymous__noSpaceCombinators
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:47.822
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:01:47.843
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:02:25.500
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-27 12:02:25.566
+!MESSAGE Non IFiles not supported yet
+!SESSION 2017-10-27 12:08:17.743 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data file:/C:/Users/ritis/Desktop/Egiants10272017/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2017-10-27 12:08:33.908
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-10-27 12:08:33.908
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3579682,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@297840d7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-27 12:08:47.255
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ritis'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
