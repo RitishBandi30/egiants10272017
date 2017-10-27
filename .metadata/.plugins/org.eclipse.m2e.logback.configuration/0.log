@@ -160,3 +160,8 @@
 2017-10-27 14:52:34,232 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-10-27 14:52:34,235 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-10-27 14:52:34,236 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ritis\Desktop\Egiants10272017\angular4spring\src\test\resources
+2017-10-27 14:59:19,876 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-27 14:59:19,878 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-27 14:59:19,880 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2017-10-27 14:59:20,058 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-27 14:59:20,059 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ritis\Desktop\Egiants10272017\angular4spring\src\test\resources

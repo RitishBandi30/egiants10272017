@@ -1,5 +1,4 @@
 INDEX VERSION 1.3+C:\Users\ritis\Desktop\Egiants10272017\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2482970230.index
 1014090894.index
 1392580632.index
 1007106613.index
